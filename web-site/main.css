@@ -1,92 +1,128 @@
 nav {
-    background-color: burlywood;
+  background-color: burlywood;
 }
 
-#welcome{
-    background-color: cornflowerblue;
-    text-align: center;
-    text-decoration: solid;
-    text-shadow: rgb(145, 88, 13);
+#welcome {
+  background-color: cornflowerblue;
+  text-align: center;
+  text-decoration: solid;
+  text-shadow: rgb(145, 88, 13);
 }
 
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 
-h2{
-    
+main {
+  color: aliceblue;
 }
 
-#news h1{
-    text-decoration: dashed;
-    text-shadow: rgb(145, 88, 13);
-    color: darkblue;
+body {
+  background-color: cadetblue;
 }
 
-#our-team p li{
-    text-align: center;
-    text-decoration: double;
+img {
+  border-radius: 50%;
 }
 
-#our-team p li a{
-    text-align: center;
-    border-bottom-left-radius: 30%;
+header li {
+  display: inline;
+}
+
+header li a {
+  display: block;
+  width: 60px;
+}
+
+#news h1 {
+  text-decoration: dashed;
+  text-shadow: rgb(145, 88, 13);
+  color: black;
+}
+
+#our-team p li {
+  text-align: center;
+  text-decoration: double;
+}
+
+#our-team img {
+  text-align: center;
+  border-bottom-left-radius: 30%;
+  width: 150px;
+  position: relative;
+  border-color: crimson;
 }
 
 .new {
   text-align: center;
+
+  border: 2px solid #0066ff;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border: 2px solid #0066FF;  
+ 
+  background-color:#FFCC33;  
+  padding: 5px; 
 }
 
-#location{
-    text-align: center;
-    background-color: brown;
+#location {
+  text-align: center;
+  background-color: cadetblue;
 }
 
-#about-news{
-    background-color: cadetblue;
-    text-align: center;
+#about-news {
+  background-color: cadetblue;
+  text-align: center;
 }
 
-
-header{
-    background-color: rgb(11, 66, 167);
+header {
+  background-color: rgb(11, 66, 167);
 }
 
-body{
-    color: rgb(145, 88, 13);
-    font-family: "League Gothic", sans-serif;
-    font-family: "Titan One", cursive;
+body {
+  color: rgb(145, 88, 13);
+  font-family: "League Gothic", sans-serif;
+  font-family: "Titan One", cursive;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Titan+One&display=swap");
 
 h1 {
-    color: white;
-    text-align: center;
-  }
+  color: white;
+  text-align: center;
+}
 
-  footer {
-    color: rgb(13, 26, 100);
-    background-color: rgba(214, 108, 108, 0.801);
-    text-align: center;
-    text-decoration-color: rgba(15, 1, 1, 0.808);
-  }
+footer {
+  background-color: rgb(11, 66, 167);
+  text-align: center;
+  text-decoration-color: rgba(15, 1, 1, 0.808);
+}
 
-  #about{
-    text-align: center;
-  }
+#location {
+  background-color: rgb(11, 66, 167);
+}
 
-  #about-section{
-    color: rgb(26, 23, 23);
-    text-align: center;
-  }
+#about {
+  text-align: center;
+}
 
-  #our-team li{
-    border-block-style: red;
-    list-style-type: none;
-  }
+#about-section {
+  color: rgb(26, 23, 23);
+  text-align: center;
+}
 
-  .people {
-    border-block-style: red;
-    border: 13px;;
-  }
+#our-team li {
+  border-block-style: red;
+  list-style-type: none;
+}
+
+.people {
+  border-block-style: red;
+  border: 13px;
+}
