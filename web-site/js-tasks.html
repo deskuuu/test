@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JS tasks</h1>
+
+    <form>
+      <label for="input-f">Input:</label><br />
+      <input type="text" id="input" name="input" /><br />
+    </form>
+    <button
+      onclick="getElementById('output-factorial').innerHTML=calculateFactorial(getElementById('input-f').value)"
+    >
+      Output:
+    </button>
+    <p id="output-factorial"></p>
+
+    <form>
+      <label for="input-str">Input:</label><br />
+      <input type="text" id="input-str" name="input" /><br />
+    </form>
+    <button
+      onclick="getElementById('output-str').innerHTML=checkString(getElementById('input-str').value)"
+    >
+      Output:
+    </button>
+    <p id="output-str"></p>
+
+    <form>
+      <label for="input-st">Input:</label><br />
+      <input type="text" id="input-st" name="input" /><br />
+    </form>
+    <button
+      onclick="getElementById('input-st').innerHTML=checkIfPalindrome(getElementById('input-st').value)"
+    >
+      Output:
+    </button>
+    <p id="output-st"></p>
+
+    <script>
+      function calculateFactorial(number) {
+        try {
+          var num = parseInt(number);
+
+          if (num < 0) {
+            //console.log('Error');
+            return console.error("Not excist for negative");
+          } else if (num === 0) {
+            return 1;
+          } else {
+            var fact = 1;
+            for (i = 1; i <= num; i++) {
+              fact *= i;
+            }
+          }
+        } catch (err) {
+          console.log(err.message);
+        }
+      }
+
+      //given a string, return true if, for every unique character,
+      //there is an even number of occurrences, false otherwise. (ex. “aabbcc” -> true, “aabcc” -> false, “aaaabbcc” -> true)
+      function checkString(str) {
+        try {
+          // “aabbcc” -> true, “aabcc” -> false
+          var check = str[0];
+          for (i = 0; i<str.lengt; i++){
+             while(check != ){
+
+             }
+          }
+        } catch (err) {
+          console.log(err.message);
+        }
+      }
+
+      function checkIfPalindrome(str) {
+        return str == str.split("").reverse().join("");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+nav {
+    background-color: burlywood;
+}
+
+#welcome{
+    background-color: cornflowerblue;
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: rgb(145, 88, 13);
+}
+
+li{
+    list-style-type: none;
+}
+
+h2{
+    
+}
+
+#news h1{
+    text-decoration: dashed;
+    text-shadow: rgb(145, 88, 13);
+    color: darkblue;
+}
+
+#our-team p li{
+    text-align: center;
+    text-decoration: double;
+}
+
+#our-team p li a{
+    text-align: center;
+    border-bottom-left-radius: 30%;
+}
+
+.new {
+  text-align: center;
+}
+
+#location{
+    text-align: center;
+    background-color: brown;
+}
+
+#about-news{
+    background-color: cadetblue;
+    text-align: center;
+}
+
+
+header{
+    background-color: rgb(11, 66, 167);
+}
+
+body{
+    color: rgb(145, 88, 13);
+    font-family: "League Gothic", sans-serif;
+    font-family: "Titan One", cursive;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Titan+One&display=swap");
+
+h1 {
+    color: white;
+    text-align: center;
+  }
+
+  footer {
+    color: rgb(13, 26, 100);
+    background-color: rgba(214, 108, 108, 0.801);
+    text-align: center;
+    text-decoration-color: rgba(15, 1, 1, 0.808);
+  }
+
+  #about{
+    text-align: center;
+  }
+
+  #about-section{
+    color: rgb(26, 23, 23);
+    text-align: center;
+  }
+
+  #our-team li{
+    border-block-style: red;
+    list-style-type: none;
+  }
+
+  .people {
+    border-block-style: red;
+    border: 13px;;
+  }
