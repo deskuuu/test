@@ -1,5 +1,5 @@
 nav {
-  background-color: burlywood;
+  background-color: rgb(95, 150, 223);
 }
 
 #welcome {
@@ -11,6 +11,20 @@ nav {
 
 li {
   list-style-type: none;
+}
+
+li p{
+    text-align: right;
+    border-left: 550px;
+}
+
+iframe{
+    width: 340px;
+    height: 340px;
+}
+
+figure{
+    text-align: center;
 }
 
 main {
@@ -40,6 +54,10 @@ header li a {
   color: black;
 }
 
+#news h2{
+   color: black;
+}
+
 #our-team p li {
   text-align: center;
   text-decoration: double;
@@ -51,6 +69,24 @@ header li a {
   width: 150px;
   position: relative;
   border-color: crimson;
+  width: 230px;
+  height: 200px;
+}
+
+#our-team div {
+    text-align: left;
+    color: black;
+    font-size: 20px;
+  
+  }
+
+  #our-team p {
+   font-size: medium;
+   text-align: center;
+  }
+
+details{
+    background-color: aqua;
 }
 
 .new {
@@ -74,6 +110,13 @@ header li a {
 #location {
   text-align: center;
   background-color: cadetblue;
+}
+
+#location iframe{
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
 }
 
 #about-news {
